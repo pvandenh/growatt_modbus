@@ -1,7 +1,7 @@
 {
   "domain": "growatt_modbus",
   "name": "Growatt Modbus",
-  "codeowners": "CLAUDE"
+  "codeowners": ["CLAUDE"],
   "config_flow": true,
   "documentation": "https://github.com/pedrov/growatt_modbus",
   "issue_tracker": "https://github.com/pedrov/growatt_modbus/issues",
