@@ -1,0 +1,45 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configure Growatt Inverter",
+        "description": "Enter the connection details for your Growatt inverter",
+        "data": {
+          "name": "Name",
+          "host": "Host (IP Address)",
+          "port": "Port",
+          "slave": "Slave ID",
+          "timeout": "Timeout (seconds)"
+        },
+        "data_description": {
+          "name": "Friendly name for this inverter (e.g., 'Growatt Inverter 1')",
+          "host": "IP address of the inverter",
+          "port": "Modbus TCP port (usually 502 or 503)",
+          "slave": "Modbus slave ID (usually 1 or 2)",
+          "timeout": "Connection timeout in seconds"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to the inverter. Please check the host, port, and network connectivity.",
+      "unknown": "An unexpected error occurred. Please check the logs."
+    },
+    "abort": {
+      "already_configured": "This inverter (same host and slave ID) is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Configure Options",
+        "description": "Adjust integration settings",
+        "data": {
+          "timeout": "Timeout (seconds)"
+        },
+        "data_description": {
+          "timeout": "Connection timeout in seconds"
+        }
+      }
+    }
+  }
+}
