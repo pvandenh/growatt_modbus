@@ -1,0 +1,10 @@
+
+{
+  "name": "Growatt Modbus",
+  "content_in_root": false,
+  "filename": "growatt_modbus",
+  "render_readme": true,
+  "domains": ["growatt_modbus"],
+  "homeassistant": "2023.1.0",
+  "iot_class": "Local Polling"
+}
